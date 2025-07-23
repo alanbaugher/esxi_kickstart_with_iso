@@ -1,11 +1,21 @@
 # esxi_kickstart_with_iso
 
 
-Download the VSphere ESXi ISO
+1) Download the VSphere ESXi ISO
 
+2) Run bash shell to extract and update two (2) BOOT.CFG files & copy the ks.cfg file to KS.CFG within the new ISO.
+   
 xorriso [ sudo dnf install xorriso ] used to update the ISO with a custom configuration ks.cfg and BOOT.CFG (2x)
 
 <img width="991" height="706" alt="image" src="https://github.com/user-attachments/assets/aded6cb0-f696-4d48-9ab9-b4fd12fbffbb" />
 
 
-Rufus {Use to copy the updated ISO to the USB drive}
+3) File transfer the ISO to MS Win workstation & use Rufus (portable) to copy the updated ISO to the USB drive.
+
+<img width="566" height="762" alt="image" src="https://github.com/user-attachments/assets/f3db151e-a98b-4e3a-9b73-35da80046a19" />
+
+4) Place the USB drive in one of the MS-A2 USB slots and reboot the host.
+   - May need to use the boot menu of the BIOS to ensure that the USB boot option is selected.
+
+5) Confirm when ESXi installation screen displays, that a message appears that the script install is progressing.
+   - There should be no required interactive effort, e.g. password, hostname, network questions.
