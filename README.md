@@ -7,6 +7,8 @@
 
 2) Update the ks.cfg file with hostname (FQDN), Static IP address, root's password, NTP FQDN, Syslog Host (IP)
 
+<img width="1708" height="1125" alt="image" src="https://github.com/user-attachments/assets/3e967d49-38d5-4a6a-bd4c-57ae0195254a" />
+
 3) Run bash shell to extract and update two (2) BOOT.CFG files & copy the ks.cfg file to KS.CFG within the new ISO.
    
 xorriso [ sudo dnf install xorriso ] used to update the ISO with a custom configuration ks.cfg and BOOT.CFG (2x)
