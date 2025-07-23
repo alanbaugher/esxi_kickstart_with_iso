@@ -25,3 +25,7 @@ xorriso [ sudo dnf install xorriso ] used to update the ISO with a custom config
 
 6) Confirm when ESXi installation screen displays a message should appears that the script install is progressing (with no errors).
    - There should be no required interactive effort, e.g. password, hostname, network questions.
+
+7) Use ssh (putty) to access the ESXi host as root.
+
+8) Use a browser to access the ESXi UI as root.
