@@ -5,7 +5,7 @@
 
    <img width="1800" height="1125" alt="image" src="https://github.com/user-attachments/assets/2646655a-9b8b-4948-a0c5-d3e42d049e45" />
 
-2) Update the ks.cfg file with hostname (FQDN), Static IP address, root's password, NTP FQDN
+2) Update the ks.cfg file with hostname (FQDN), Static IP address, root's password, NTP FQDN, Syslog Host (IP)
 
 3) Run bash shell to extract and update two (2) BOOT.CFG files & copy the ks.cfg file to KS.CFG within the new ISO.
    
