@@ -22,6 +22,9 @@ xorriso [ sudo dnf install xorriso ] used to update the ISO with a custom config
 
 5) Place the USB drive in one of the MS-A2 USB slots and reboot the host.
    - May need to use the boot menu of the BIOS to ensure that the USB boot option is selected.
+     
+   <img width="963" height="575" alt="image" src="https://github.com/user-attachments/assets/39dab07b-8846-41e2-b2d2-d3130473d718" />
+
 
 6) Confirm when ESXi installation screen displays a message should appears that the script install is progressing (with no errors).
    - There should be no required interactive effort, e.g. password, hostname, network questions.
