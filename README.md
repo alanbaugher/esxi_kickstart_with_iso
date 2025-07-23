@@ -3,7 +3,10 @@
 
 1) Download the VSphere ESXi ISO
 
-2) Run bash shell to extract and update two (2) BOOT.CFG files & copy the ks.cfg file to KS.CFG within the new ISO.
+   <img width="1800" height="1125" alt="image" src="https://github.com/user-attachments/assets/2646655a-9b8b-4948-a0c5-d3e42d049e45" />
+
+
+3) Run bash shell to extract and update two (2) BOOT.CFG files & copy the ks.cfg file to KS.CFG within the new ISO.
    
 xorriso [ sudo dnf install xorriso ] used to update the ISO with a custom configuration ks.cfg and BOOT.CFG (2x)
 
